@@ -1,0 +1,116 @@
+.s-img-logo {
+    max-width: 100%;
+	position: relative;
+    background: #333;
+    background: #316985;
+    -webkit-box-shadow: inset -7px 22px 165px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -7px 22px 165px 0px rgba(0,0,0,0.75);
+    box-shadow: inset -7px 22px 165px 0px rgba(0,0,0,0.75);
+    border-bottom: 1px solid #000;
+}
+
+.s-img-logo img {
+    width: 50px;
+}
+
+.s-img-logo h2 {
+	color: #fff;
+	font-size: 25px;
+}
+
+#notes-plugin {
+    text-align: center;    margin-right: 20px;
+}
+
+#notes-plugin h1 {
+	text-align: center;
+	font-size: 80px;
+	font-weight: 900;
+}
+
+#notes-plugin h1::first-letter {
+    color: red;
+}
+
+#notes-plugin h1 {
+    color: green;
+}
+
+#notes-plugin h3 {
+    font-size: 33px;
+    font-weight: 900;
+}
+
+#notes-plugin td {
+	border: 1px solid #C0C0C0;
+    padding: 15px;
+    background: green;
+}
+
+#notes-plugin .note {
+	width: 300px;
+	height: 100px;
+}
+
+#notes-plugin input {
+overflow: hidden;
+}
+
+#notes-plugin b {
+    display: block;	
+    line-height: 28px;
+	color: #fff;
+	font-size: 18px;
+}
+
+#notes-plugin .notes-table {
+	display: inline-block;
+	margin: 20px;
+    vertical-align: top;	
+}
+
+.new-custom-note {
+	color: #fff;
+	background: green;
+	padding: 5px;
+}
+
+#notes-plugin .note-submit {
+	text-align: center;
+	width: 100%;
+}
+
+#notes-plugin p.submit {
+	text-align: center;	
+}
+
+#notes-plugin p.submit input{
+	text-align: center;
+    border: none;
+	padding: 10px 15px;
+    color: #FFF;
+	background: red;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-size: 0.75rem;
+    outline: 0;
+    box-shadow: none;
+}
+
+#notes-plugin p.submit input:hover {
+	background: green;	
+}
+#notes-plugin .note-admin-email {
+	font-size: 15px;
+	font-weight: 900;
+}
+
+#notes-plugin .note-email {
+	border: 1px solid #C0C0C0;
+	padding: 5px;
+	outline: 0;
+}
+
+#notes-plugin .note-email:focus {
+		box-shadow:none;
+}
